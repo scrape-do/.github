@@ -2,7 +2,7 @@
 ## Scrape.do - Best Rotating Proxy & Web Scraping API
 
 
-Scrape.do is an advanced API system designed for all individuals and companies looking to perform web scraping. This system can manage hundreds of millions of daily traffic and helps you overcome scaling challenges. Additionally, it provides a seamless scraping experience, even in the face of anti-bot systems like Datadome, Akamai, Cloudflare, etc.
+Scrape.do is an advanced scraping API system designed for all individuals and companies looking to perform web scraping. This system can manage hundreds of millions of daily traffic and helps you overcome scaling challenges. Additionally, it provides a seamless scraping experience, even in the face of anti-bot systems like Datadome, Akamai, Cloudflare, etc.
 
 Scrape.do offers its users a reliable and scalable web scraping solution. Thanks to its advanced API features, users can effortlessly collect data from their target websites. This platform has been designed to cater to all the needs in the web scraping domain.
 
