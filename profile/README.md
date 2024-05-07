@@ -1,12 +1,19 @@
-## Hi there 👋
+![web scraping api](https://scrape.do/images/scrape-logo.svg)
+## Scrape.do - Best Rotating Proxy & Web Scraping API
 
-<!--
 
-**Here are some ideas to get you started:**
+Scrape.do is an advanced API system designed for all individuals and companies looking to perform web scraping. This system can manage hundreds of millions of daily traffic and helps you overcome scaling challenges. Additionally, it provides a seamless scraping experience, even in the face of anti-bot systems like Datadome, Akamai, Cloudflare, etc.
 
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+Scrape.do offers its users a reliable and scalable web scraping solution. Thanks to its advanced API features, users can effortlessly collect data from their target websites. This platform has been designed to cater to all the needs in the web scraping domain.
+
+By integrating Scrape.do with an HTTP client, you can seamlessly perform data extraction from the websites of your choice. Scrape.do's advanced API features will handle the management of anti-bot measures and scaling challenges, allowing your application to focus solely on the data collection process.
+
+This approach enables you to directly integrate Scrape.do's powerful web scraping functionality into your system. Using an HTTP client, you can transmit the necessary requests. This integration simplifies the web scraping workflow and provides a reliable, scalable solution for obtaining the data you need from target websites.
+
+**You can visit our dedicated [documentation](https://scrape.do/documentation) page for the complete integration process.**
+
+**Features;**
+- Worldwide 95M+ residential, data center and mobile rotating proxies,
+- Bypass anti-bot Systems
+- Headless Browsers (real device fingerprints)
+- Session Management
