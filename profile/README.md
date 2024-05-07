@@ -14,6 +14,7 @@ This approach enables you to directly integrate Scrape.do's powerful web scrapin
 
 **Features;**
 - Worldwide 95M+ residential, data center and mobile rotating proxies,
-- Bypass anti-bot Systems
+- Bypass anti-bot systems
 - Headless Browsers (real device fingerprints)
 - Session Management
+- 7/24 SLA 
