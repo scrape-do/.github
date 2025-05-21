@@ -13,7 +13,7 @@ This approach enables you to directly integrate Scrape.do's powerful web scrapin
 **You can visit our dedicated [documentation](https://scrape.do/documentation) page for the complete integration process.**
 
 **Features;**
-- Worldwide 95M+ residential, data center and mobile rotating proxies,
+- Worldwide 110M+ residential, data center and mobile rotating proxies,
 - Bypass anti-bot systems
 - Headless Browsers (real device fingerprints)
 - Session Management
