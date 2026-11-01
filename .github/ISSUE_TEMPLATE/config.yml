@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Scrape.do documentation
+    url: https://scrape.do/documentation
+    about: Parameters, examples and the API reference.
+  - name: Account, billing or a specific target site
+    url: mailto:support@scrape.do
+    about: Questions about your account, credits, or why a particular site blocks belong to support, not to a code repository.
+  - name: Report a security vulnerability
+    url: https://github.com/scrape-do/.github/blob/main/SECURITY.md
+    about: Never in a public issue. Use private vulnerability reporting or security@scrape.do.

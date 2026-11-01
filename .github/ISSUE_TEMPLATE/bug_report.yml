@@ -1,0 +1,44 @@
+name: Bug report
+description: Something in this repository does not behave as documented.
+title: "bug: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the report. **Do not include your API token**, a URL that carries it, or any other credential anywhere in this issue.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you did, what you expected, and what happened instead.
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps to reproduce
+      description: The smallest code or command that shows the problem, with the token redacted.
+      render: shell
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: The package, module or binary version (for example `sdo --version`, `pip show sdo-sdk`, `npm ls @scrape-do/sdk`).
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: Operating system and the language runtime version (Go, Node.js or Python).
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant output
+      description: Error messages or logs, with any token redacted.
+      render: text

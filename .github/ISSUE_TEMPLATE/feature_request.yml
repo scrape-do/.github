@@ -1,0 +1,28 @@
+name: Feature request
+description: Propose an improvement to this repository.
+title: "feat: "
+labels: ["feature"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        The SDKs, CLI and MCP server expose what the [Scrape.do documentation](https://scrape.do/documentation) documents. A request for a new API capability itself belongs to support@scrape.do; a request for how this repository exposes an existing capability belongs here.
+  - type: textarea
+    id: problem
+    attributes:
+      label: The problem
+      description: What you are trying to do and what gets in the way today.
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed change
+      description: What you would like to see, with an example of how it would be used.
+    validations:
+      required: true
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: Workarounds you tried or other designs you considered.
