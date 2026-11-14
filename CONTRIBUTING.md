@@ -11,8 +11,11 @@ versions, how to run the tests, release process) and takes precedence.
   you spend time on it. Small fixes can go straight to a pull request.
 - **Security issues are never public issues.** See [SECURITY.md](SECURITY.md).
 - **Never commit a credential.** No API tokens, no URLs that carry one, not in
-  code, tests, fixtures, logs or examples. Our CI scans every commit for
-  secrets and a pull request that contains one will be closed.
+  code, tests, fixtures, logs or examples. GitHub secret scanning with push
+  protection is enabled on every repository, and the sdo repositories
+  (`sdo-go`, `sdo-sdk-js`, `sdo-sdk-python`, `sdo-cli`, `sdo-mcp`) also run
+  gitleaks in CI; a pull request that contains a secret is closed and the
+  secret must be rotated.
 
 ## Pull requests
 
@@ -25,6 +28,9 @@ versions, how to run the tests, release process) and takes precedence.
 - Sign off your commits (`git commit -s`): the sign-off is your
   [Developer Certificate of Origin](https://developercertificate.org) statement
   that you have the right to submit the change under the repository's license.
+  The sdo repositories check every commit's Conventional Commit subject and
+  sign-off in CI (the `commits` job); a pull request fails until they are
+  fixed.
 - A maintainer reviews every pull request before it is merged. Pull requests
   from forks are merged by squash, so you do not need to rewrite your branch's
   history.
