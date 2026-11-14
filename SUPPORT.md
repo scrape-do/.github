@@ -1,3 +1,4 @@
+<!-- SPDX-License-Identifier: Apache-2.0 -->
 # Support
 
 Thanks for using Scrape.do. Here is where to go for what.

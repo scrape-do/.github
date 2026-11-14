@@ -1,3 +1,4 @@
+<!-- SPDX-License-Identifier: Apache-2.0 -->
 <!-- Thanks for the pull request. A short, specific description helps it get reviewed quickly. -->
 
 ## What changed and why

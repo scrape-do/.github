@@ -1,3 +1,4 @@
+# SPDX-License-Identifier: Apache-2.0
 name: Bug report
 description: Something in this repository does not behave as documented.
 title: "bug: "

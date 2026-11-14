@@ -1,3 +1,4 @@
+<!-- SPDX-License-Identifier: Apache-2.0 -->
 # Contributing to Scrape.do's open-source projects
 
 Thank you for your interest. These are the organisation-wide ground rules; a

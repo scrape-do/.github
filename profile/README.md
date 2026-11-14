@@ -1,3 +1,4 @@
+<!-- SPDX-License-Identifier: Apache-2.0 -->
 ![web scraping api](https://scrape.do/images/scrape-logo.svg)
 ## Scrape.do - Best Rotating Proxy & Web Scraping API
 
