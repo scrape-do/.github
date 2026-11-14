@@ -28,7 +28,8 @@ is published, unless you prefer otherwise.
 
 In scope: the code published in the organisation's repositories, their build
 and release pipelines, and the packages they publish (Go modules, npm and PyPI
-packages, release binaries).
+packages, release binaries, and the Homebrew formulae and Scoop manifests in
+`scrape-do/homebrew-tap` and `scrape-do/scoop-bucket`).
 
 Out of scope: the Scrape.do service itself (the API, the dashboard and
 scrape.do websites), which is reported to
