@@ -12,11 +12,12 @@ versions, how to run the tests, release process) and takes precedence.
   you spend time on it. Small fixes can go straight to a pull request.
 - **Security issues are never public issues.** See [SECURITY.md](SECURITY.md).
 - **Never commit a credential.** No API tokens, no URLs that carry one, not in
-  code, tests, fixtures, logs or examples. GitHub secret scanning with push
-  protection is enabled on every repository, and the sdo repositories
-  (`sdo-go`, `sdo-sdk-js`, `sdo-sdk-python`, `sdo-cli`, `sdo-mcp`) also run
-  gitleaks in CI; a pull request that contains a secret is closed and the
-  secret must be rotated.
+  code, tests, fixtures, logs or examples. The sdo repositories
+  (`sdo-go`, `sdo-sdk-js`, `sdo-sdk-python`, `sdo-cli`, `sdo-mcp`, the
+  Homebrew tap and the Scoop bucket) have GitHub secret scanning with push
+  protection enabled, and the five code repositories also run gitleaks in CI;
+  a pull request that contains a secret is closed and the secret must be
+  rotated.
 
 ## Pull requests
 

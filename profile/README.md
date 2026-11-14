@@ -18,7 +18,7 @@ This approach enables you to directly integrate Scrape.do's powerful web scrapin
 - Bypass anti-bot systems
 - Headless Browsers (real device fingerprints)
 - Session Management
-- 24/7 technical support
+- 24/7 Technical Support
 
 ## Open source
 
