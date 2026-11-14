@@ -20,7 +20,8 @@ Thanks for using Scrape.do. Here is where to go for what.
 ## Questions about scraping a particular site
 
 The GitHub issue trackers are for the code in each repository: the SDKs, the
-CLI and the MCP server. Questions about why a particular target site blocks,
-about proxies, geo-targeting or rendering options belong to
+CLI, the MCP server, and the Homebrew tap and Scoop bucket that install them.
+Questions about why a particular target site blocks, about proxies,
+geo-targeting or rendering options belong to
 [support@scrape.do](mailto:support@scrape.do), where the team can look at your
 account and the request itself.
