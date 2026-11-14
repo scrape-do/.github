@@ -14,13 +14,15 @@ Report them privately, in either of these ways:
 1. **GitHub private vulnerability reporting:** on the repository page, open
    **Security → Report a vulnerability**. This creates a private advisory draft
    visible only to you and the maintainers.
-2. **Email:** [security@scrape.do](mailto:security@scrape.do).
+2. **Email:** [security@scrape.do](mailto:security@scrape.do). PGP is available
+   on request.
 
 Include what the issue is, the steps or a proof of concept to reproduce it, the
 affected repository and version, and what you think the impact is. Never
 include a real API token or other credential in the report.
 
-You will get an acknowledgement within 3 business days. We will keep you
+You will get an acknowledgement within 3 business days and a triage and
+severity assessment within 7 business days. We will keep you
 informed while we investigate and will credit you in the advisory when the fix
 is published, unless you prefer otherwise.
 
