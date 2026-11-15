@@ -16,7 +16,7 @@ Report them privately, in either of these ways:
    **Security → Report a vulnerability** (on repositories that offer it). This
    creates a private advisory draft
    visible only to you and the maintainers.
-2. **Email:** [security@scrape.do](mailto:security@scrape.do). PGP is available
+2. **Email:** [support@scrape.do](mailto:support@scrape.do). PGP is available
    on request.
 
 Include what the issue is, the steps or a proof of concept to reproduce it, the
@@ -38,7 +38,7 @@ manifests the organisation publishes, for example in
 
 Out of scope: the Scrape.do service itself (the API, the dashboard and
 scrape.do websites), which is reported to
-[security@scrape.do](mailto:security@scrape.do) directly rather than through
+[support@scrape.do](mailto:support@scrape.do) directly rather than through
 GitHub; denial-of-service findings that only consume the reporter's own
 credits; and findings that require an already-compromised machine.
 
