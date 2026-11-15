@@ -13,7 +13,8 @@ discussions or pull requests.**
 Report them privately, in either of these ways:
 
 1. **GitHub private vulnerability reporting:** on the repository page, open
-   **Security → Report a vulnerability**. This creates a private advisory draft
+   **Security → Report a vulnerability** (on repositories that offer it). This
+   creates a private advisory draft
    visible only to you and the maintainers.
 2. **Email:** [security@scrape.do](mailto:security@scrape.do). PGP is available
    on request.
@@ -31,7 +32,8 @@ is published, unless you prefer otherwise.
 
 In scope: the code published in the organisation's repositories, their build
 and release pipelines, and the packages they publish (Go modules, npm and PyPI
-packages, release binaries, and the Homebrew formulae and Scoop manifests in
+packages, release binaries, and the Homebrew formulae and casks and the Scoop
+manifests the organisation publishes, for example in
 `scrape-do/homebrew-tap` and `scrape-do/scoop-bucket`).
 
 Out of scope: the Scrape.do service itself (the API, the dashboard and

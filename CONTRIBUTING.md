@@ -30,12 +30,15 @@ versions, how to run the tests, release process) and takes precedence.
 - Sign off your commits (`git commit -s`): the sign-off is your
   [Developer Certificate of Origin](https://developercertificate.org) statement
   that you have the right to submit the change under the repository's license.
-  The sdo repositories check every commit's Conventional Commit subject and
+  The five code repositories (`sdo-go`, `sdo-sdk-js`, `sdo-sdk-python`,
+  `sdo-cli`, `sdo-mcp`) check every commit's Conventional Commit subject and
   sign-off in CI (the `commits` job); a pull request fails until they are
   fixed.
-- A maintainer reviews every pull request before it is merged. Pull requests
-  from forks are merged by squash, so you do not need to rewrite your branch's
-  history.
+- A maintainer reviews every pull request before it is merged. In the sdo
+  repositories every pull request is squash-merged with its title as the
+  commit subject, so the title follows Conventional Commits too; the `commits`
+  job still checks each commit on the branch, so fix a failing one with
+  `git commit --amend -s` or `git rebase -i` and force-push your branch.
 
 ## License
 

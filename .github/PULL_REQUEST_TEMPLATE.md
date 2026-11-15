@@ -12,3 +12,4 @@
 - [ ] No credential or token anywhere in the diff, including tests, fixtures and examples.
 - [ ] Commits are signed off (`git commit -s`) and the title follows Conventional Commits.
 - [ ] Documentation (README, CHANGELOG) is updated where the change is user-visible.
+- [ ] The repository's own CONTRIBUTING.md checklist, if it has one, is done.
