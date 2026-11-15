@@ -1,0 +1,67 @@
+# SPDX-License-Identifier: Apache-2.0
+name: Bug report
+description: Something in this repository does not behave as documented.
+title: "bug: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for the report. **Do not include your API token**, a URL that carries it, or any other credential anywhere in this issue.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+      description: What you did, what you expected, and what happened instead.
+    validations:
+      required: true
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps to reproduce
+      description: The smallest code or command that shows the problem, with the token redacted.
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: The package, module or binary version (for example `sdo --version`, `sdo-mcp version`, `go list -m github.com/scrape-do/sdo-go`, `pip show sdo-sdk`, `npm ls @scrape-do/sdk`).
+    validations:
+      required: true
+  - type: dropdown
+    id: install
+    attributes:
+      label: How did you install it?
+      options:
+        - Homebrew
+        - Scoop
+        - GitHub release archive
+        - go install
+        - go get (Go module)
+        - npm
+        - pip
+        - Built from source
+        - Other (say how under Environment)
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: Operating system and architecture; for an SDK, also the Go, Node.js or Python version.
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant output
+      description: Error messages or logs, with any token redacted.
+      render: text
+  - type: checkboxes
+    id: no-secrets
+    attributes:
+      label: Secrets
+      options:
+        - label: I removed my API token and every other secret from this report
+          required: true
