@@ -25,8 +25,8 @@ This approach enables you to directly integrate Scrape.do's powerful web scrapin
 The official SDKs and tools for the Scrape.do API, one repository each:
 
 - [sdo-go](https://github.com/scrape-do/sdo-go): the Go SDK. `go get github.com/scrape-do/sdo-go`
-- [sdo-sdk-js](https://github.com/scrape-do/sdo-sdk-js): the JavaScript and TypeScript SDK. `npm install @scrape-do/sdk` (coming soon)
-- [sdo-sdk-python](https://github.com/scrape-do/sdo-sdk-python): the Python SDK. `pip install sdo-sdk` (coming soon)
+- [sdo-sdk-js](https://github.com/scrape-do/sdo-sdk-js): the JavaScript and TypeScript SDK. `npm install @scrape-do/sdo-client` (coming soon)
+- [sdo-sdk-python](https://github.com/scrape-do/sdo-sdk-python): the Python SDK. `pip install sdo-client` (coming soon)
 - [sdo-cli](https://github.com/scrape-do/sdo-cli): the `sdo` command-line client, with a bundled MCP server. `brew install scrape-do/tap/sdo`; on Windows, add the Scoop bucket below and `scoop install scrape-do/sdo`
 - [sdo-mcp](https://github.com/scrape-do/sdo-mcp): the standalone MCP server. `brew install scrape-do/tap/sdo-mcp`; on Windows, `scoop install scrape-do/sdo-mcp`
 - [homebrew-tap](https://github.com/scrape-do/homebrew-tap): the Homebrew formulae for `sdo` and `sdo-mcp` (macOS and Linux). `brew install scrape-do/tap/sdo` (installs the tap too)
